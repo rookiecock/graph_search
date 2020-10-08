@@ -6,4 +6,4 @@ RUN apt-get update # 2016-01-14
 RUN apt-get -y install nodejs
 RUN rake assets:precompile
 
-CMD r
+CMD rails s
