@@ -1,4 +1,4 @@
 stockwatcher
 ============
 
-Sends cus
+Sends custom alert emails for movements of stocks on the 
