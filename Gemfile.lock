@@ -167,3 +167,10 @@ DEPENDENCIES
   rails_12factor
   rbtrace
   rufus-scheduler
+  sanitize_email
+  sass-rails
+  select2-rails (< 4.0)
+  uglifier
+
+BUNDLED WITH
+   1.11.2
