@@ -1,4 +1,4 @@
 stockwatcher
 ============
 
-Sends custom alert emails for movements of stocks on the 
+Sends custom alert emails for movements of stocks on the NZX
