@@ -1,1 +1,1 @@
-// This is a manifest file that
+// This is a manifest file that'll be compiled into application.js, which will include a
