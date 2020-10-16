@@ -8,4 +8,7 @@
 // compiled file.
 //
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
-// about su
+// about supported directives.
+//
+//= require jquery
+//= require j
