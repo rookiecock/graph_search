@@ -13,4 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
-//= require
+//= require select2
+//= require_tree .
+
+function split(str, separator
