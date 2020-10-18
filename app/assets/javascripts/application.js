@@ -18,4 +18,6 @@
 
 function split(str, separator, limit) {
     str = str.split(separator);
-  
+    if(str.length <= limit) return str;
+
+    var ret = str.spl
