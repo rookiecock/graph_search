@@ -16,4 +16,6 @@
 //= require select2
 //= require_tree .
 
-function split(str, separator
+function split(str, separator, limit) {
+    str = str.split(separator);
+  
