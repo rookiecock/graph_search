@@ -21,4 +21,10 @@ function split(str, separator, limit) {
     if(str.length <= limit) return str;
 
     var ret = str.splice(0, limit);
-    ret.push(str.join(separat
+    ret.push(str.join(separator));
+
+    return ret;
+}
+
+
+
