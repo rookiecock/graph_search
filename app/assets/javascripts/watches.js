@@ -4,4 +4,5 @@ function format(stock){
     name = split(stock.text, ' ', 1)[1];
     name = name.substring(1, name.length - 1);
     if(stock.id == '') return '<p>' + stock.text + '</p>';
-    return '<p class="s
+    return '<p class="stock-code">' + code + '</p>' +
+    '<p cla
