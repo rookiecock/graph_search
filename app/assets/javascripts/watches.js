@@ -11,4 +11,5 @@ function format(stock){
 $(function(){
     $('select').select2({
       formatResult: format,
-     
+      formatSelection: format,
+      escap
