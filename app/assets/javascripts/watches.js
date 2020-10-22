@@ -5,4 +5,8 @@ function format(stock){
     name = name.substring(1, name.length - 1);
     if(stock.id == '') return '<p>' + stock.text + '</p>';
     return '<p class="stock-code">' + code + '</p>' +
-    '<p cla
+    '<p class="stock-name">' + name + '</p>';
+}
+
+$(function(){
+    
