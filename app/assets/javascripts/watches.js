@@ -12,4 +12,5 @@ $(function(){
     $('select').select2({
       formatResult: format,
       formatSelection: format,
-      escap
+      escapeMarkup: function(m) { return m; },
+      matcher: fun
