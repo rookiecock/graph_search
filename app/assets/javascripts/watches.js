@@ -16,4 +16,6 @@ $(function(){
       matcher: function(term, text) {
           code = split(text, ' ', 1)[0];
           name = split(text, ' ', 1)[1];
-          name = name.substring(1, name.l
+          name = name.substring(1, name.length - 1);
+
+          return code.toUpperCase
