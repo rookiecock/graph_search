@@ -15,4 +15,5 @@ $(function(){
       escapeMarkup: function(m) { return m; },
       matcher: function(term, text) {
           code = split(text, ' ', 1)[0];
-          name = split(text, ' ', 1)[
+          name = split(text, ' ', 1)[1];
+          name = name.substring(1, name.l
