@@ -14,4 +14,5 @@ $(function(){
       formatSelection: format,
       escapeMarkup: function(m) { return m; },
       matcher: function(term, text) {
-          code = split(text, ' ', 
+          code = split(text, ' ', 1)[0];
+          name = split(text, ' ', 1)[
