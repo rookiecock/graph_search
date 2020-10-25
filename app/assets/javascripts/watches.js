@@ -18,4 +18,5 @@ $(function(){
           name = split(text, ' ', 1)[1];
           name = name.substring(1, name.length - 1);
 
-          return code.toUpperCase
+          return code.toUpperCase().indexOf(term.toUpperCase())==0 ||
+  
