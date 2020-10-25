@@ -19,4 +19,8 @@ $(function(){
           name = name.substring(1, name.length - 1);
 
           return code.toUpperCase().indexOf(term.toUpperCase())==0 ||
-              name.toUpperCase().indexOf(term.toU
+              name.toUpperCase().indexOf(term.toUpperCase())==0;
+      }
+    });
+});
+
