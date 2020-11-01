@@ -10,3 +10,45 @@ img {
 
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create your own classes
+// to make views framework-neutral
+.column {
+  @extend .col-md-6;
+  @extend .text-center;
+  }
+.form {
+  @extend .col-md-6;
+  }
+.form-centered {
+  @extend .col-md-6;
+  @extend .text-center;
+  }
+.submit {
+  @extend .btn;
+  @extend .btn-primary;
+  @extend .btn-lg;
+  }
+// apply styles to HTML elements
+// to make views framework-neutral
+main {
+  @extend .container;
+  background-color: #eee;
+  padding-bottom: 80px;
+  width: 100%;
+  margin-top: 51px; // accommodate the navbar
+  }
+section {
+  @extend .row;
+  margin-top: 20px;
+  }
+
+/* Set the fixed height of the footer here */
+footer {
+  height: 45px;
+  background-color: #cccccc;
+  padding-top: 10px;
+}
+
+/* fix twitter typeahead inline-block issue */
+span.twitter-typeahead {
+  display: block!important;
+}
