@@ -381,3 +381,50 @@
   margin-top: -7px;
   top: 50%;
 }
+
+/**
+ * Adjust the single Select2's clear button position (used to reset the select box
+ * back to the placeholder value and visible once a selection is made
+ * activated by Select2's "allowClear" option).
+ */
+.select2-container .select2-choice abbr {
+  top: 50%;
+}
+
+/**
+ * Adjust "no results" and "selection limit" messages to make use
+ * of Bootstrap 3's default "Alert" style.
+ *
+ * @see http://getbootstrap.com/components/#alerts-default
+ */
+.select2-results .select2-no-results,
+.select2-results .select2-searching,
+.select2-results .select2-selection-limit {
+  background-color: #fcf8e3;
+  color: #c09853;
+}
+
+/**
+ * Address disabled Select2 styles.
+ *
+ * 1. For Select2 v.3.3.2.
+ * 2. Revert border-left:0 inherited from Select2's CSS to prevent the arrow
+ *    from jumping when switching from disabled to enabled state and vice versa.
+ */
+.select2-container.select2-container-disabled .select2-choice,
+.select2-container.select2-container-disabled .select2-choices {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+  border-color: #cccccc;
+}
+.select2-container.select2-container-disabled .select2-choice .select2-arrow,
+.select2-container.select2-container-disabled .select2-choice div,
+.select2-container.select2-container-disabled .select2-choices .select2-arrow,
+.select2-container.select2-container-disabled .select2-choices div {
+  background-color: transparent;
+  border-left: 1px solid transparent;
+  /* 2 */
+}
+
+/**
+ * Address Select2's loading indicator position - which should not stick
