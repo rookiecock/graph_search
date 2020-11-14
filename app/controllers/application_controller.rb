@@ -1,1 +1,1 @@
-cla
+class ApplicationController < ActionContr
