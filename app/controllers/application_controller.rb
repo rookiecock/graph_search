@@ -5,4 +5,9 @@ class ApplicationController < ActionController::Base
 
   before_filter :configure_permitted_parameters, if: :devise_controller?
 
-  def after_sign_in_p
+  def after_sign_in_path_for(resource)
+    watches_path
+  end
+
+  protected
+
