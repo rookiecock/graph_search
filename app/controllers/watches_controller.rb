@@ -1,2 +1,3 @@
 class WatchesController < ApplicationController
-  before_action :
+  before_action :set_watch, only: [:show, :edit, :update, :destroy]
+  
