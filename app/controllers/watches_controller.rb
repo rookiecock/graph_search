@@ -1,1 +1,2 @@
-class Watch
+class WatchesController < ApplicationController
+  before_action :
