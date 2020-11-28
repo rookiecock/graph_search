@@ -10,3 +10,7 @@ class WatchesController < ApplicationController
 
   # GET /watches/new
   def new
+    @watch = Watch.new
+  end
+
+  # GET /watches/1/ed
