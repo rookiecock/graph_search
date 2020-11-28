@@ -13,4 +13,7 @@ class WatchesController < ApplicationController
     @watch = Watch.new
   end
 
-  # GET /watches/1/ed
+  # GET /watches/1/edit
+  def edit
+    if @watch.user != current_user then
+      raise
