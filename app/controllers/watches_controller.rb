@@ -16,4 +16,8 @@ class WatchesController < ApplicationController
   # GET /watches/1/edit
   def edit
     if @watch.user != current_user then
-      raise
+      raise ActiveRecord::RecordNotFound
+    end
+  end
+
+  # PO
