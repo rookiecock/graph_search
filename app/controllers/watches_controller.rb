@@ -22,4 +22,5 @@ class WatchesController < ApplicationController
 
   # POST /watches
   def create
-    @watch = Watch.new(watch_p
+    @watch = Watch.new(watch_params)
+    @watch.user = current_use
