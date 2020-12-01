@@ -20,4 +20,6 @@ class WatchesController < ApplicationController
     end
   end
 
-  # PO
+  # POST /watches
+  def create
+    @watch = Watch.new(watch_p
