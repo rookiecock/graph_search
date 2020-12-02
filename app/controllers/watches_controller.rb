@@ -27,4 +27,10 @@ class WatchesController < ApplicationController
 
     if @watch.save
       flash.notice = "You're now watching #{@watch.stock.code}"
-      redirect_to actio
+      redirect_to action: 'index'
+    else
+      render action: 'new'
+    end
+  end
+
+ 
