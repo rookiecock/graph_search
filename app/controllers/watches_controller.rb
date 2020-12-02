@@ -23,4 +23,7 @@ class WatchesController < ApplicationController
   # POST /watches
   def create
     @watch = Watch.new(watch_params)
-    @watch.user = current_use
+    @watch.user = current_user
+
+    if @watch.save
+      flash.notice = "You're now watc
