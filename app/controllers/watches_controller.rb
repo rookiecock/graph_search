@@ -26,4 +26,5 @@ class WatchesController < ApplicationController
     @watch.user = current_user
 
     if @watch.save
-      flash.notice = "You're now watc
+      flash.notice = "You're now watching #{@watch.stock.code}"
+      redirect_to actio
