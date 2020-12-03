@@ -36,4 +36,6 @@ class WatchesController < ApplicationController
   # PATCH/PUT /watches/1
   def update
     if @watch.user != current_user then
-      raise
+      raise ActiveRecord::RecordNotFound
+    end
+    if @watch.up
