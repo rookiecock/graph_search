@@ -38,4 +38,5 @@ class WatchesController < ApplicationController
     if @watch.user != current_user then
       raise ActiveRecord::RecordNotFound
     end
-    if @watch.up
+    if @watch.update(watch_params)
+      flash.notice = "You've successfully up
