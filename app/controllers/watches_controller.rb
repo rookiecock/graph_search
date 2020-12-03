@@ -35,4 +35,5 @@ class WatchesController < ApplicationController
 
   # PATCH/PUT /watches/1
   def update
-    if @wa
+    if @watch.user != current_user then
+      raise
