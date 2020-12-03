@@ -33,4 +33,6 @@ class WatchesController < ApplicationController
     end
   end
 
- 
+  # PATCH/PUT /watches/1
+  def update
+    if @wa
