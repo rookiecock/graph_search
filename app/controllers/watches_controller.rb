@@ -39,4 +39,6 @@ class WatchesController < ApplicationController
       raise ActiveRecord::RecordNotFound
     end
     if @watch.update(watch_params)
-      flash.notice = "You've successfully up
+      flash.notice = "You've successfully updated your watch"
+      redirect_to action: 'index'
+   
