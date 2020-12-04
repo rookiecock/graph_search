@@ -41,4 +41,9 @@ class WatchesController < ApplicationController
     if @watch.update(watch_params)
       flash.notice = "You've successfully updated your watch"
       redirect_to action: 'index'
-   
+    else
+      render action: 'edit' 
+    end
+  end
+
+  #
