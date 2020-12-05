@@ -46,4 +46,6 @@ class WatchesController < ApplicationController
     end
   end
 
-  #
+  # DELETE /watches/1
+  def destroy
+    @watch.destroy
