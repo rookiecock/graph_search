@@ -49,3 +49,8 @@ class WatchesController < ApplicationController
   # DELETE /watches/1
   def destroy
     @watch.destroy
+    redirect_to watches_url
+  end
+
+  def stocks_json
+    
