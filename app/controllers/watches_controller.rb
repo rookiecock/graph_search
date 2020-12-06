@@ -53,4 +53,8 @@ class WatchesController < ApplicationController
   end
 
   def stocks_json
-    render json: Stock.select('id, code, na
+    render json: Stock.select('id, code, name')
+  end
+
+  private
+    # Use callbacks 
