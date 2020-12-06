@@ -57,4 +57,4 @@ class WatchesController < ApplicationController
   end
 
   private
-    # Use callbacks 
+    # Use callbacks to share common setup or constraints between actio
