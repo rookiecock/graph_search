@@ -57,4 +57,6 @@ class WatchesController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actio
+    # Use callbacks to share common setup or constraints between actions.
+    def set_watch
+      @watch = Watc
