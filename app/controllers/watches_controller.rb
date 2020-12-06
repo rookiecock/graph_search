@@ -53,4 +53,4 @@ class WatchesController < ApplicationController
   end
 
   def stocks_json
-    
+    render json: Stock.select('id, code, na
