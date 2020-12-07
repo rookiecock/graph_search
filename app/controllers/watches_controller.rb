@@ -66,4 +66,4 @@ class WatchesController < ApplicationController
       @stocks = Stock.all
     end
 
-    # Never trus
+    # Never trust parameters from the scary interne
