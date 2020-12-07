@@ -63,4 +63,7 @@ class WatchesController < ApplicationController
     end
 
     def get_stocks
-  
+      @stocks = Stock.all
+    end
+
+    # Never trus
