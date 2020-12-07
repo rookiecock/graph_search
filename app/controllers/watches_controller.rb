@@ -66,4 +66,5 @@ class WatchesController < ApplicationController
       @stocks = Stock.all
     end
 
-    # Never trust parameters from the scary interne
+    # Never trust parameters from the scary internet, only allow the white list through.
+    
