@@ -1,1 +1,2 @@
-class
+class WelcomeController < ApplicationController
+  def
