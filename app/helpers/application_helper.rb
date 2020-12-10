@@ -1,2 +1,4 @@
 module ApplicationHelper
-  def direc
+  def direction_to_color(direction)
+    case direction
+    
