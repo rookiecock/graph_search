@@ -5,3 +5,8 @@ module ApplicationHelper
         'green'
       when '-'
         'red'
+      else
+        'black'
+    end
+  end
+end
