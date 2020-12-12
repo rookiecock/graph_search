@@ -1,2 +1,4 @@
 class AlertMailer < ActionMailer::Base
-  default from: 'Stock Wa
+  default from: 'Stock Watcher <support@stockwatcher.co.nz>'
+
+  def sto
