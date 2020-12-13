@@ -6,4 +6,5 @@ class AlertMailer < ActionMailer::Base
     @quote = daily_diff.quote
     @watch = watch
 
-  	@direction_up = daily_diff.d
+  	@direction_up = daily_diff.direction == '+'
+  	@diff = daily_diff.dif
