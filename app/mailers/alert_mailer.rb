@@ -7,4 +7,5 @@ class AlertMailer < ActionMailer::Base
     @watch = watch
 
   	@direction_up = daily_diff.direction == '+'
-  	@diff = daily_diff.dif
+  	@diff = daily_diff.diff.abs
+  	@percent_change = daily_diff.percent_change.
