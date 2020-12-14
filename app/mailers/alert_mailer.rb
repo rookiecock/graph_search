@@ -8,4 +8,6 @@ class AlertMailer < ActionMailer::Base
 
   	@direction_up = daily_diff.direction == '+'
   	@diff = daily_diff.diff.abs
-  	@percent_change = daily_diff.percent_change.
+  	@percent_change = daily_diff.percent_change.abs
+  	
+  	mail(to: @watch.user.email, subject: "Stock Wa
