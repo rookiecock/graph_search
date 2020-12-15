@@ -1,2 +1,6 @@
 class Quote < ActiveRecord::Base
-  belongs_
+  belongs_to :stock
+
+  require 'csv'
+
+  class <<
