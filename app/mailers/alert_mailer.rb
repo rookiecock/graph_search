@@ -10,4 +10,6 @@ class AlertMailer < ActionMailer::Base
   	@diff = daily_diff.diff.abs
   	@percent_change = daily_diff.percent_change.abs
   	
-  	mail(to: @watch.user.email, subject: "Stock Wa
+  	mail(to: @watch.user.email, subject: "Stock Watcher alert for #{@watch.stock.label}")
+  end
+end
