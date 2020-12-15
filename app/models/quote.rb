@@ -3,4 +3,6 @@ class Quote < ActiveRecord::Base
 
   require 'csv'
 
-  class <<
+  class << self
+
+  	# Retrieve current pricing for all sto
