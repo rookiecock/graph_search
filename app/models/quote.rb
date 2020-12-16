@@ -6,4 +6,6 @@ class Quote < ActiveRecord::Base
   class << self
 
   	# Retrieve current pricing for all stocks in the stocks table, and
-    # put it in the quotes tab
+    # put it in the quotes table
+	  def update_prices
+	  	stocks = Stock.all.map { |
