@@ -5,4 +5,5 @@ class Quote < ActiveRecord::Base
 
   class << self
 
-  	# Retrieve current pricing for all sto
+  	# Retrieve current pricing for all stocks in the stocks table, and
+    # put it in the quotes tab
