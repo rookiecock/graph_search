@@ -8,4 +8,4 @@ class Quote < ActiveRecord::Base
   	# Retrieve current pricing for all stocks in the stocks table, and
     # put it in the quotes table
 	  def update_prices
-	  	stocks = Stock.all.map { |
+	  	stocks = Stock.all.map { |s| s.code + '.nz' }.join(',') # XRO.nz,
