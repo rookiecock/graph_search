@@ -9,4 +9,6 @@ class Quote < ActiveRecord::Base
     # put it in the quotes table
 	  def update_prices
 	  	stocks = Stock.all.map { |s| s.code + '.nz' }.join(',') # XRO.nz,WHS.nz etc
-	  	url = URI.parse("http://download.finance.yahoo.com/d/quotes.csv?s=#{stocks}&f=sl1t1d
+	  	url = URI.parse("http://download.finance.yahoo.com/d/quotes.csv?s=#{stocks}&f=sl1t1d1p")
+		  req = Net::HTTP::Get.new(url.to_s)
+		  res = 
