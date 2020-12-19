@@ -14,4 +14,6 @@ class Quote < ActiveRecord::Base
 		  res = Net::HTTP.start(url.host, url.port) { |http| http.request(req) }
 
       puts res.body
-  		quotes = CSV.parse(res.bod
+  		quotes = CSV.parse(res.body)
+
+  		quotes.each { |quote| update_price qu
