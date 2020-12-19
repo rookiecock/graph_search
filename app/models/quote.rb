@@ -16,4 +16,7 @@ class Quote < ActiveRecord::Base
       puts res.body
   		quotes = CSV.parse(res.body)
 
-  		quotes.each { |quote| update_price qu
+  		quotes.each { |quote| update_price quote }
+    end
+
+    def update_price(quote)
