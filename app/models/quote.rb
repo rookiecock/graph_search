@@ -20,3 +20,4 @@ class Quote < ActiveRecord::Base
     end
 
     def update_price(quote)
+      code = quote[0].split('.')[0] # Remove suffix,
