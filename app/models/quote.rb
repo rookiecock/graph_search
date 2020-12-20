@@ -22,4 +22,4 @@ class Quote < ActiveRecord::Base
     def update_price(quote)
       code = quote[0].split('.')[0] # Remove suffix, e.g. 'XRO.NZ' => 'XRO'
       price = quote[1]
-  
+      last_trade_time = DateTime.strptime("#{quote[3]} 
