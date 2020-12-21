@@ -23,4 +23,4 @@ class Quote < ActiveRecord::Base
       code = quote[0].split('.')[0] # Remove suffix, e.g. 'XRO.NZ' => 'XRO'
       price = quote[1]
       last_trade_time = DateTime.strptime("#{quote[3]} #{quote[2]}", '%m/%d/%Y %H:%M%P')
-      las
+      last_trade_time = ActiveSupport::TimeZone['Aucklan
