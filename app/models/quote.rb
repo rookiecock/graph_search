@@ -24,4 +24,5 @@ class Quote < ActiveRecord::Base
       price = quote[1]
       last_trade_time = DateTime.strptime("#{quote[3]} #{quote[2]}", '%m/%d/%Y %H:%M%P')
       last_trade_time = ActiveSupport::TimeZone['Auckland'].local_to_utc(last_trade_time)
-      prev_close = 
+      prev_close = quote[4]
+      Quote.new(:stock => Stock.find
