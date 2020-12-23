@@ -29,4 +29,6 @@ class Quote < ActiveRecord::Base
                 :prev_close => prev_close, :last_trade_time => last_trade_time).save
     end
 
-	  def check
+	  def check_watches
+	    Watch.all.each do |watch|
+        check
