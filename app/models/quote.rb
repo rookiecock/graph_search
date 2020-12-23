@@ -26,4 +26,4 @@ class Quote < ActiveRecord::Base
       last_trade_time = ActiveSupport::TimeZone['Auckland'].local_to_utc(last_trade_time)
       prev_close = quote[4]
       Quote.new(:stock => Stock.find_by_code(code), :price => price,
-        
+                :prev_close => prev_close, :last_tr
