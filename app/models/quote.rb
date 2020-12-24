@@ -31,4 +31,8 @@ class Quote < ActiveRecord::Base
 
 	  def check_watches
 	    Watch.all.each do |watch|
-        check
+        check_watch(watch)
+      end
+    end
+
+    def check_wat
