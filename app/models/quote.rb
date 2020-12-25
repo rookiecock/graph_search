@@ -35,4 +35,5 @@ class Quote < ActiveRecord::Base
       end
     end
 
-    def check_wat
+    def check_watch(watch)
+      quote = watch.stock.latest_q
