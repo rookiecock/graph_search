@@ -36,4 +36,7 @@ class Quote < ActiveRecord::Base
     end
 
     def check_watch(watch)
-      quote = watch.stock.latest_q
+      quote = watch.stock.latest_quote
+
+      if(!quote) then
+        puts "No 
