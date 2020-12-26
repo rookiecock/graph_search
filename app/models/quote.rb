@@ -39,4 +39,6 @@ class Quote < ActiveRecord::Base
       quote = watch.stock.latest_quote
 
       if(!quote) then
-        puts "No 
+        puts "No quotes found for #{watch.stock.code}"
+        return
+      end
