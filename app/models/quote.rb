@@ -42,3 +42,7 @@ class Quote < ActiveRecord::Base
         puts "No quotes found for #{watch.stock.code}"
         return
       end
+
+      daily_diff = watch.stock.daily_diff
+
+      put
