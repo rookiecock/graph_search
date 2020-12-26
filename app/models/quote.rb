@@ -45,4 +45,5 @@ class Quote < ActiveRecord::Base
 
       daily_diff = watch.stock.daily_diff
 
-      put
+      puts <<-eos
+          \nChecking watch on '#{watch.st
