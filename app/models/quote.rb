@@ -46,4 +46,5 @@ class Quote < ActiveRecord::Base
       daily_diff = watch.stock.daily_diff
 
       puts <<-eos
-          \nChecking watch on '#{watch.st
+          \nChecking watch on '#{watch.stock.code}' for user '#{watch.user.email}'
+          Yesterday'
