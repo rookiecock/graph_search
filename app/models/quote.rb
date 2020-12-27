@@ -47,4 +47,5 @@ class Quote < ActiveRecord::Base
 
       puts <<-eos
           \nChecking watch on '#{watch.stock.code}' for user '#{watch.user.email}'
-          Yesterday'
+          Yesterday's close: $#{sprintf('%0.2f', quote.prev_close)}
+   
