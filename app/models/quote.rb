@@ -50,4 +50,5 @@ class Quote < ActiveRecord::Base
           Yesterday's close: $#{sprintf('%0.2f', quote.prev_close)}
           Latest quote: $#{sprintf('%0.2f', quote.price)} at #{quote.created_at.to_s} [ID: #{quote.id}]
           Last Trade Time: #{quote.last_trade_time.to_s}
-          Difference: $#{sprin
+          Difference: $#{sprintf('%0.2f', daily_diff.diff)}
+          Change: #
