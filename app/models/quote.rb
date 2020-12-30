@@ -52,4 +52,7 @@ class Quote < ActiveRecord::Base
           Last Trade Time: #{quote.last_trade_time.to_s}
           Difference: $#{sprintf('%0.2f', daily_diff.diff)}
           Change: #{sprintf('%0.2f', daily_diff.percent_change)}%
-          Threshold: #{sprintf('%0.2f', watch.thres
+          Threshold: #{sprintf('%0.2f', watch.threshold)}%
+      eos
+
+      if daily_diff.percent_change.
