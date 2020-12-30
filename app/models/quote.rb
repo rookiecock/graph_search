@@ -55,4 +55,5 @@ class Quote < ActiveRecord::Base
           Threshold: #{sprintf('%0.2f', watch.threshold)}%
       eos
 
-      if daily_diff.percent_change.
+      if daily_diff.percent_change.abs > watch.threshold then
+        # Cheap hack - the 
