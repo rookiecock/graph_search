@@ -56,4 +56,4 @@ class Quote < ActiveRecord::Base
       eos
 
       if daily_diff.percent_change.abs > watch.threshold then
-        # Cheap hack - the 
+        # Cheap hack - the stock market is never open for more than 16 h
