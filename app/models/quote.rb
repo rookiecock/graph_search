@@ -57,4 +57,4 @@ class Quote < ActiveRecord::Base
 
       if daily_diff.percent_change.abs > watch.threshold then
         # Cheap hack - the stock market is never open for more than 16 hours
-        if Alert.where("watch_id = ? and created_
+        if Alert.where("watch_id = ? and created_at > current_timestamp - interval '16 hour
