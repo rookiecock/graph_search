@@ -58,4 +58,5 @@ class Quote < ActiveRecord::Base
       if daily_diff.percent_change.abs > watch.threshold then
         # Cheap hack - the stock market is never open for more than 16 hours
         if Alert.where("watch_id = ? and created_at > current_timestamp - interval '16 hours'", watch.id).exists? then
-          puts 'Threshold exceeded; not sending alert
+          puts 'Threshold exceeded; not sending alert as alert already sent within 16 hours'
+        elsif qu
