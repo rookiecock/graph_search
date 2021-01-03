@@ -60,4 +60,5 @@ class Quote < ActiveRecord::Base
         if Alert.where("watch_id = ? and created_at > current_timestamp - interval '16 hours'", watch.id).exists? then
           puts 'Threshold exceeded; not sending alert as alert already sent within 16 hours'
         elsif quote.last_trade_time + 1.hours < Time.now
-          puts 'Threshold exceeded; not sending alert as over one hou
+          puts 'Threshold exceeded; not sending alert as over one hour has passed since the stock was traded'
+        el
