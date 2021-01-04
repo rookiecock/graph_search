@@ -61,4 +61,5 @@ class Quote < ActiveRecord::Base
           puts 'Threshold exceeded; not sending alert as alert already sent within 16 hours'
         elsif quote.last_trade_time + 1.hours < Time.now
           puts 'Threshold exceeded; not sending alert as over one hour has passed since the stock was traded'
-        el
+        else
+          puts "Threshold exceeded; 
