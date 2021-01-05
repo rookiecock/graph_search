@@ -63,4 +63,4 @@ class Quote < ActiveRecord::Base
           puts 'Threshold exceeded; not sending alert as over one hour has passed since the stock was traded'
         else
           puts "Threshold exceeded; sending alert\n"
-          if AlertMa
+          if AlertMailer.stock_alert(watch, daily_diff).deliver_no
