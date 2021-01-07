@@ -64,4 +64,8 @@ class Quote < ActiveRecord::Base
         else
           puts "Threshold exceeded; sending alert\n"
           if AlertMailer.stock_alert(watch, daily_diff).deliver_now then
-            Alert.new(:watch => 
+            Alert.new(:watch => watch).save
+          end
+        end
+      else
+ 
