@@ -1,4 +1,7 @@
 class Stock < ActiveRecord::Base
 
   def label
-    "#{co
+    "#{code} [#{name}]"
+  end
+
+  # The most recent quote for this 
