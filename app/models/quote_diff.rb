@@ -25,3 +25,4 @@ class QuoteDiff
         ''
     end
   end
+end
