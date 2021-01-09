@@ -4,4 +4,7 @@ class Stock < ActiveRecord::Base
     "#{code} [#{name}]"
   end
 
-  # The most recent quote for this 
+  # The most recent quote for this stock
+  def latest_quote
+    Quote.where(
+      'stock_id = ? 
