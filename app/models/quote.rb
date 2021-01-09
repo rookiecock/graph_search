@@ -71,4 +71,6 @@ class Quote < ActiveRecord::Base
         puts 'Threshold not exceeded'
       end
 
-  
+    end
+	end
+end
