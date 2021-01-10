@@ -7,4 +7,4 @@ class Stock < ActiveRecord::Base
   # The most recent quote for this stock
   def latest_quote
     Quote.where(
-      'stock_id = ? 
+      'stock_id = ? and created_at = (select max(created_at
