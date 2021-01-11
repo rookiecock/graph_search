@@ -12,4 +12,7 @@ class Stock < ActiveRecord::Base
   end
 
   def daily_diff
-    QuoteDiff.new l
+    QuoteDiff.new latest_quote
+  end
+
+end
