@@ -2,4 +2,5 @@ class Watch < ActiveRecord::Base
   belongs_to :user
   belongs_to :stock
 
-  validates :stock, pre
+  validates :stock, presence: true
+  validates :threshold, presence: true, 
