@@ -1,2 +1,5 @@
 class Watch < ActiveRecord::Base
-  belongs_to 
+  belongs_to :user
+  belongs_to :stock
+
+  validates :stock, pre
