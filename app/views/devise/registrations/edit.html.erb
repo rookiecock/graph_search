@@ -16,3 +16,17 @@
 
   <%= f.label :password %> <i>(leave blank if you don't want to change it)</i>
   <%= f.password_field :password, :autocomplete => "off", :hide_label => true %>
+  <%= f.password_field :password_confirmation %>
+
+  <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
+  <%= f.password_field :current_password, :hide_label => true %>
+
+  <%= f.submit "Update", :class => 'btn btn-primary' %>
+<% end %>
+
+<h3>Cancel my account</h3>
+
+<p><%= link_to "Cancel my account", registration_path(resource_name), :class => 'btn btn-default',
+  :data => { :confirm => "Are you sure?" }, :method => :delete %></p>
+
+<%= link_to "Back", :back %>
