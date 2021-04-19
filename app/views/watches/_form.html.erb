@@ -1,0 +1,19 @@
+
+<%= bootstrap_form_for(@watch) do |f| %>
+  <% if @watch.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@watch.errors.count, "error") %> prohibited this watch from being saved:</h2>
+
+      <ul>
+      <% @watch.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <%= f.label :stock_id, 'Stock' %>
+  <%= collection_select(:watch, :stock_id, @stocks, :id, :label, {:prompt => true}, :class => 'form-control') %>
+  <%= f.text_field :threshold, :label => 'Threshold (percentage change in either direction from yesterday\'s close to trigger an alert)' %>
+
+  <div class="actions">
