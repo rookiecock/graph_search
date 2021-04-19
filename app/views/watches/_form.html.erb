@@ -17,3 +17,7 @@
   <%= f.text_field :threshold, :label => 'Threshold (percentage change in either direction from yesterday\'s close to trigger an alert)' %>
 
   <div class="actions">
+    <%= f.submit "Save", class: "btn btn-primary" %>
+    <%= link_to 'Back', watches_path, class: "btn btn-default" %>
+  </div>
+<% end %>
