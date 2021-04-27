@@ -2,4 +2,8 @@
 
 <% if @watches.empty? %>
   <p>You don't have any watches! Click the button below to watch a stock.</p>
-  <p><%= link_to 'Watch a stock', new_watch_path, class: "btn btn-primary"
+  <p><%= link_to 'Watch a stock', new_watch_path, class: "btn btn-primary" %></p>
+<% else %>
+  <table class="table">
+    <thead>
+ 
