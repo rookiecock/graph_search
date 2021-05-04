@@ -20,4 +20,5 @@
         <tr>
         	<td><%= watch.stock.code %></td>
         	<td><%= watch.stock.name %></td>
-        	<td>+/- <%= number_to_percentage(watch.threshold, preci
+        	<td>+/- <%= number_to_percentage(watch.threshold, precision: 2) %> from prev close</td>
+          <td><%= number
