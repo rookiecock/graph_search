@@ -22,4 +22,4 @@
         	<td><%= watch.stock.name %></td>
         	<td>+/- <%= number_to_percentage(watch.threshold, precision: 2) %> from prev close</td>
           <td><%= number_to_currency(watch.stock.latest_quote.price) %>
-        
+            <span style="color: <%= direction_to_color(watch.stock.dail
