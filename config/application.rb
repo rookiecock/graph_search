@@ -6,4 +6,5 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
-modu
+module Stockwatcher
+  class Application < Rails::Applica
