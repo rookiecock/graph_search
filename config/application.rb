@@ -7,4 +7,5 @@ require 'rails/all'
 Bundler.require(:default, Rails.env)
 
 module Stockwatcher
-  class Application < Rails::Applica
+  class Application < Rails::Application
+    # Settings in config/environments/* tak
