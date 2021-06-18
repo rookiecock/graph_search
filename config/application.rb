@@ -16,4 +16,5 @@ module Stockwatcher
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
     #Time.zone = "Auckland"
 
-    # U
+    # Use local time in DB
+    #config.active_record.d
