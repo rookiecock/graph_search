@@ -13,4 +13,4 @@ module Stockwatcher
     # -- all .rb files in that directory are automatically loaded.
 
     # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
-    # Run "rake 
+    # Run "rake -D time" for a list of tasks for finding 
