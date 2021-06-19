@@ -17,4 +17,6 @@ module Stockwatcher
     #Time.zone = "Auckland"
 
     # Use local time in DB
-    #config.active_record.d
+    #config.active_record.default_timezone = :local
+
+    # Don't do ANY time zone
