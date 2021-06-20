@@ -21,4 +21,6 @@ module Stockwatcher
 
     # Don't do ANY time zone conversion
     config.active_record.default_timezone = :local
-    config.active_record.tim
+    config.active_record.time_zone_aware_attributes = false
+
+    # Avoid 
