@@ -23,4 +23,4 @@ module Stockwatcher
     config.active_record.default_timezone = :local
     config.active_record.time_zone_aware_attributes = false
 
-    # Avoid 
+    # Avoid deprecation warning - use new default behaviou
