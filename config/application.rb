@@ -24,4 +24,6 @@ module Stockwatcher
     config.active_record.time_zone_aware_attributes = false
 
     # Avoid deprecation warning - use new default behaviour
-    config.i18n.enforce_available_locale
+    config.i18n.enforce_available_locales = true
+
+    # The default locale is :en and al
