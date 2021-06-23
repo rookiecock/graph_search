@@ -26,4 +26,5 @@ module Stockwatcher
     # Avoid deprecation warning - use new default behaviour
     config.i18n.enforce_available_locales = true
 
-    # The default locale is :en and al
+    # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
+    #
