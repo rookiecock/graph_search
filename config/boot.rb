@@ -1,1 +1,2 @@
-# Set up gems listed in th
+# Set up gems listed in the Gemfile.
+ENV['BUNDLE_GEMFILE'] ||= File.expand_
