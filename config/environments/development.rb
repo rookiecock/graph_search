@@ -1,0 +1,1 @@
+Stockwatcher::Application.configure do
