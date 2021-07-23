@@ -17,4 +17,6 @@ Stockwatcher::Application.configure do
   config.action_mailer.raise_delivery_errors = true
 
   # Print deprecation notices to the Rails logger.
-  config.active_
+  config.active_support.deprecation = :log
+
+  # Raise an error on p
