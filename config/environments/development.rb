@@ -20,4 +20,6 @@ Stockwatcher::Application.configure do
   config.active_support.deprecation = :log
 
   # Raise an error on page load if there are pending migrations
-  config.acti
+  config.active_record.migration_error = :page_load
+
+  # Debug mode d
