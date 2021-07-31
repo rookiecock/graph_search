@@ -23,4 +23,4 @@ Stockwatcher::Application.configure do
   config.active_record.migration_error = :page_load
 
   # Debug mode disables concatenation and preprocessing of assets.
-  # This o
+  # This option may cause significant delays in view renderi
