@@ -28,4 +28,5 @@ Stockwatcher::Application.configure do
   config.assets.debug = true
 
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
-  c
+  config.action_mailer.smtp_settings = {
+    address:      
