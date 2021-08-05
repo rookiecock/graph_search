@@ -32,4 +32,5 @@ Stockwatcher::Application.configure do
     address:              'smtp.gmail.com',
     port:                 587,
     domain:               'stockwatcher.co.nz',
-    user_name:            'support@st
+    user_name:            'support@stockwatcher.co.nz',
+    password:             '<REDA
