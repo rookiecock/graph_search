@@ -33,4 +33,6 @@ Stockwatcher::Application.configure do
     port:                 587,
     domain:               'stockwatcher.co.nz',
     user_name:            'support@stockwatcher.co.nz',
-    password:             '<REDA
+    password:             '<REDACTED>',
+    authentication:       'plain',
+    enab
