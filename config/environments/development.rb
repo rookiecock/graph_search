@@ -35,4 +35,6 @@ Stockwatcher::Application.configure do
     user_name:            'support@stockwatcher.co.nz',
     password:             '<REDACTED>',
     authentication:       'plain',
-    enab
+    enable_starttls_auto: true
+  }
+end
