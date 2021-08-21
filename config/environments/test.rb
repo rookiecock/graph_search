@@ -1,1 +1,2 @@
-Stockwatcher::Applicati
+Stockwatcher::Application.configure do
+  # Settings specif
