@@ -12,4 +12,5 @@ Stockwatcher::Application.configure do
   # preloads Rails for running tests, you may have to set it to true.
   config.eager_load = false
 
-  # Configure static asset se
+  # Configure static asset server for tests with Cache-Control for performance.
+  conf
