@@ -21,4 +21,6 @@ Stockwatcher::Application.configure do
   config.action_controller.perform_caching = false
 
   # Raise exceptions instead of rendering exception templates.
-  config.action_dispatch.s
+  config.action_dispatch.show_exceptions = false
+
+  # Disable 
