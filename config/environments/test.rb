@@ -26,4 +26,4 @@ Stockwatcher::Application.configure do
   # Disable request forgery protection in test environment.
   config.action_controller.allow_forgery_protection = false
 
-  #
+  # Tell Action Mailer not to delive
