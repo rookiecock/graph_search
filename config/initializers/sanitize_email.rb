@@ -6,4 +6,6 @@ if Rails.env.development?
     config[:activation_proc] =      Proc.new { %w(development test).include?(Rails.env) }
     config[:use_actual_email_prepended_to_subject] = true         # or false
     config[:use_actual_environment_prepended_to_subject] = true   # or false
-    config[:use_actual_email_as_sanitized_user_name] = true 
+    config[:use_actual_email_as_sanitized_user_name] = true       # or false
+  end
+end
