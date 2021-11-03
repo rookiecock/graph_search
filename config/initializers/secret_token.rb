@@ -7,4 +7,5 @@
 # no regular words or you'll be exposed to dictionary attacks.
 # You can use `rake secret` to generate a secure secret key.
 
-# Make sure your se
+# Make sure your secret_key_base is kept private
+# if you're sharing y
