@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Stockwatcher::Application.config.secret_key_base = '2ddeb0b35536a3669cd631ad
+Stockwatcher::Application.config.secret_key_base = '2ddeb0b35536a3669cd631adcb0165ee3e0361b7e8e8c16b43bee0022f79b3
