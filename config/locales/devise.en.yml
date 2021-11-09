@@ -3,4 +3,5 @@
 en:
   devise:
     confirmations:
-      confirmed: "Your account was succe
+      confirmed: "Your account was successfully confirmed."
+      send_instructions: "You will re
