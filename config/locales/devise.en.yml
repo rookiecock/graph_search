@@ -13,4 +13,5 @@ en:
       locked: "Your account is locked."
       last_attempt: "You have one more attempt before your account will be locked."
       not_found_in_database: "Invalid email or password."
-      timeout: "You
+      timeout: "Your session expired. Please sign in again to continue."
+ 
