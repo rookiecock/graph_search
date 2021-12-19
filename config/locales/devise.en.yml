@@ -21,4 +21,6 @@ en:
         subject: "Confirmation instructions"
       reset_password_instructions:
         subject: "Reset password instructions"
-      unlock_instructi
+      unlock_instructions:
+        subject: "Unlock Instructions"
+    om
