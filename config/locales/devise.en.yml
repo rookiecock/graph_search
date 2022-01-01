@@ -29,4 +29,4 @@ en:
     passwords:
       no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
       send_instructions: "You will receive an email with instructions about how to reset your password in a few minutes."
-      send_paranoid_instructions: "If your email address exists in our database, you w
+      send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email add
