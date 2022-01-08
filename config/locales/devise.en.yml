@@ -33,4 +33,4 @@ en:
       updated: "Your password was changed successfully. You are now signed in."
       updated_not_active: "Your password was changed successfully."
     registrations:
-      destroy
+      destroyed: "Bye! Your account was successfully cancell
