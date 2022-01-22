@@ -42,4 +42,6 @@ en:
       updated: "You updated your account successfully."
     sessions:
       signed_in: "Signed in successfully."
-      signed_out: "Signed out s
+      signed_out: "Signed out successfully."
+    unlocks:
+      send_instruct
