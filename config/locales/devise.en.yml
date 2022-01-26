@@ -44,4 +44,4 @@ en:
       signed_in: "Signed in successfully."
       signed_out: "Signed out successfully."
     unlocks:
-      send_instruct
+      send_instructions: "You will receive an email with instruc
