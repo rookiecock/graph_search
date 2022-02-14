@@ -50,4 +50,4 @@ en:
   errors:
     messages:
       already_confirmed: "was already confirmed, please try signing in"
-      confirmati
+      confirmation_period_expired: "needs to be confirmed within %{period
