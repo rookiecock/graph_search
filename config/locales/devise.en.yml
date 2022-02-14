@@ -49,4 +49,5 @@ en:
       unlocked: "Your account has been unlocked successfully. Please sign in to continue."
   errors:
     messages:
-      already_confirmed: "was already confirm
+      already_confirmed: "was already confirmed, please try signing in"
+      confirmati
