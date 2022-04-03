@@ -1,1 +1,1 @@
-class 
+class CreateUsers < ActiveRecord::Migrat
