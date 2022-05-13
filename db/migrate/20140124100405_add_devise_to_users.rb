@@ -12,4 +12,5 @@ class AddDeviseToUsers < ActiveRecord::Migration
       ## Rememberable
       t.datetime :remember_created_at
 
-      ## Track
+      ## Trackable
+      t.integer  :sign_in_count, :default => 0, :
