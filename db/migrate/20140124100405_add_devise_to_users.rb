@@ -21,4 +21,5 @@ class AddDeviseToUsers < ActiveRecord::Migration
 
       ## Confirmable
       # t.string   :confirmation_token
-    
+      # t.datetime :confirmed_at
+      # t.
