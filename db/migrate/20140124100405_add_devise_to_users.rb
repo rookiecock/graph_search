@@ -42,4 +42,4 @@ class AddDeviseToUsers < ActiveRecord::Migration
   end
 
   def self.down
-    # By defau
+    # By default, we don't want to make any assumption about how to roll back 
