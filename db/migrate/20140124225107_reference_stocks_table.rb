@@ -1,1 +1,2 @@
-class Re
+class ReferenceStocksTable < ActiveRecord::Migration
+  def
