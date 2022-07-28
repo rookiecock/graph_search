@@ -1,2 +1,4 @@
 class ReferenceStocksTable < ActiveRecord::Migration
-  def
+  def change
+  	change_table(:watches) do |t|
+  	  t.
