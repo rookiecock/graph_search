@@ -3,4 +3,6 @@ class ReferenceStocksTable < ActiveRecord::Migration
   	change_table(:watches) do |t|
   	  t.references :stock, index: true
   	end
-  	remove
+  	remove_column :watches, :code
+  end
+end
