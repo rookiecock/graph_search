@@ -1,4 +1,6 @@
 class ReferenceStocksTable < ActiveRecord::Migration
   def change
   	change_table(:watches) do |t|
-  	  t.
+  	  t.references :stock, index: true
+  	end
+  	remove
