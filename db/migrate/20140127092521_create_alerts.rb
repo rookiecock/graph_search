@@ -1,1 +1,2 @@
-cl
+class CreateAlerts < ActiveRecord::Migration
+ 
