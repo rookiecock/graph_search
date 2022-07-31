@@ -1,1 +1,2 @@
-class AddPrevCloseAn
+class AddPrevCloseAndLastTradeTimeToQuote < ActiveRecord::Migration
+  def cha
