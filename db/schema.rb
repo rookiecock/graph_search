@@ -1,3 +1,3 @@
 # encoding: UTF-8
 # This file is auto-generated from the current state of the database. Instead
-# o
+# of editing this file, please use the migrations f
