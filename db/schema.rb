@@ -16,4 +16,5 @@ ActiveRecord::Schema.define(version: 20140207220937) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "aler
+  create_table "alerts", force: :cascade do |t|
+    t.integer  "watch_id
