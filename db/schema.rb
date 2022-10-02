@@ -17,4 +17,5 @@ ActiveRecord::Schema.define(version: 20140207220937) do
   enable_extension "plpgsql"
 
   create_table "alerts", force: :cascade do |t|
-    t.integer  "watch_id
+    t.integer  "watch_id"
+    t.integer  "previous_quote_id"
