@@ -20,4 +20,6 @@ ActiveRecord::Schema.define(version: 20140207220937) do
     t.integer  "watch_id"
     t.integer  "previous_quote_id"
     t.integer  "current_quote_id"
-   
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  
