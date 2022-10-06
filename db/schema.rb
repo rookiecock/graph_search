@@ -22,4 +22,6 @@ ActiveRecord::Schema.define(version: 20140207220937) do
     t.integer  "current_quote_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-  
+  end
+
+  add_index "alerts", ["watch_id"], name:
