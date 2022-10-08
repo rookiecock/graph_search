@@ -24,4 +24,5 @@ ActiveRecord::Schema.define(version: 20140207220937) do
     t.datetime "updated_at"
   end
 
-  add_index "alerts", ["watch_id"], name:
+  add_index "alerts", ["watch_id"], name: "index_alerts_on_watch_id", using: :btree
+
