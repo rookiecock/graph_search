@@ -28,4 +28,6 @@ ActiveRecord::Schema.define(version: 20140207220937) do
 
   create_table "quotes", force: :cascade do |t|
     t.integer  "stock_id"
-    t.decimal 
+    t.decimal  "price"
+    t.datetime "created_at"
+    t.dat
