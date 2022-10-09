@@ -26,3 +26,4 @@ ActiveRecord::Schema.define(version: 20140207220937) do
 
   add_index "alerts", ["watch_id"], name: "index_alerts_on_watch_id", using: :btree
 
+  create_table "quotes", force: :cascade d
