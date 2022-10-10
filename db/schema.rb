@@ -35,4 +35,6 @@ ActiveRecord::Schema.define(version: 20140207220937) do
     t.decimal  "prev_close"
   end
 
-  add_index "quotes", ["stock_id"], name: "index_quotes_on_stock
+  add_index "quotes", ["stock_id"], name: "index_quotes_on_stock_id", using: :btree
+
+  create_table "stocks", for
