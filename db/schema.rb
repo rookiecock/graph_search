@@ -35,4 +35,4 @@ ActiveRecord::Schema.define(version: 20140207220937) do
     t.decimal  "prev_close"
   end
 
-  add_index "quote
+  add_index "quotes", ["stock_id"], name: "index_quotes_on_stock
