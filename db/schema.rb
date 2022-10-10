@@ -30,4 +30,6 @@ ActiveRecord::Schema.define(version: 20140207220937) do
     t.integer  "stock_id"
     t.decimal  "price"
     t.datetime "created_at"
-    t.dat
+    t.datetime "updated_at"
+    t.datetime "last_trade_time"
+   
