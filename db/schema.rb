@@ -32,4 +32,7 @@ ActiveRecord::Schema.define(version: 20140207220937) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.datetime "last_trade_time"
-   
+    t.decimal  "prev_close"
+  end
+
+  add_index "quote
