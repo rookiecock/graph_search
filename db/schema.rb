@@ -39,4 +39,6 @@ ActiveRecord::Schema.define(version: 20140207220937) do
 
   create_table "stocks", force: :cascade do |t|
     t.string   "code",       limit: 3,  null: false
-    t.string   "name",       limit: 50, n
+    t.string   "name",       limit: 50, null: false
+    t.datetime "created_at"
+    t.dateti
