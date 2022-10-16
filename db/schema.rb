@@ -41,4 +41,7 @@ ActiveRecord::Schema.define(version: 20140207220937) do
     t.string   "code",       limit: 3,  null: false
     t.string   "name",       limit: 50, null: false
     t.datetime "created_at"
-    t.dateti
+    t.datetime "updated_at"
+  end
+
+  add_index "stocks"
