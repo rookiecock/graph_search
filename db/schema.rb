@@ -44,4 +44,4 @@ ActiveRecord::Schema.define(version: 20140207220937) do
     t.datetime "updated_at"
   end
 
-  add_index "stocks"
+  add_index "stocks", ["code"], name: "index_stocks_on_code", unique: 
