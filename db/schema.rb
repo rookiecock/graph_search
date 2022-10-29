@@ -48,4 +48,6 @@ ActiveRecord::Schema.define(version: 20140207220937) do
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
-    t.string   "fir
+    t.string   "first_name"
+    t.string   "last_name"
+    t.datetime "created_a
