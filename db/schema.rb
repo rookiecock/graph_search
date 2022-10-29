@@ -47,4 +47,5 @@ ActiveRecord::Schema.define(version: 20140207220937) do
   add_index "stocks", ["code"], name: "index_stocks_on_code", unique: true, using: :btree
 
   create_table "users", force: :cascade do |t|
-    t.string   "email",                 
+    t.string   "email",                  default: "", null: false
+    t.string   "fir
