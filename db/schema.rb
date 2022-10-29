@@ -50,4 +50,6 @@ ActiveRecord::Schema.define(version: 20140207220937) do
     t.string   "email",                  default: "", null: false
     t.string   "first_name"
     t.string   "last_name"
-    t.datetime "created_a
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string 
