@@ -52,4 +52,5 @@ ActiveRecord::Schema.define(version: 20140207220937) do
     t.string   "last_name"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string 
+    t.string   "encrypted_password",     default: "", null: false
+    t
