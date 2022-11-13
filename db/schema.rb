@@ -68,4 +68,6 @@ ActiveRecord::Schema.define(version: 20140207220937) do
 
   create_table "watches", force: :cascade do |t|
     t.decimal  "threshold",  null: false
-    t.integer  "user_id",    
+    t.integer  "user_id",    null: false
+    t.datetime "created_at"
+    t.datetime "up
