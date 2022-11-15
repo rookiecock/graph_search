@@ -71,4 +71,7 @@ ActiveRecord::Schema.define(version: 20140207220937) do
     t.integer  "user_id",    null: false
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "stock_id",   null: fa
+    t.integer  "stock_id",   null: false
+  end
+
+  add_index "watches", ["stock_id"], name: "ind
