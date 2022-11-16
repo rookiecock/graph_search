@@ -74,4 +74,5 @@ ActiveRecord::Schema.define(version: 20140207220937) do
     t.integer  "stock_id",   null: false
   end
 
-  add_index "watches", ["stock_id"], name: "index_watches_on_stock_id", using: :btre
+  add_index "watches", ["stock_id"], name: "index_watches_on_stock_id", using: :btree
+  add_index "watches", ["user_id"], name: "index_w
