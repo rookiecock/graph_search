@@ -8,4 +8,4 @@
 
 stocks = Stock.create([
   {code: 'AIA', name: 'Auckland International Airport Limited'},
-  {
+  {code: 'AIR', name: 'Air New Zealand Limited'},
