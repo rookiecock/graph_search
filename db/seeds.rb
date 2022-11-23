@@ -7,4 +7,5 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 stocks = Stock.create([
-  {code: 'AIA', name:
+  {code: 'AIA', name: 'Auckland International Airport Limited'},
+  {
