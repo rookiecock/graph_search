@@ -12,4 +12,5 @@ stocks = Stock.create([
   {code: 'ANZ', name: 'Australia & New Zealand Banking Group Limited'},
   {code: 'ARG', name: 'Argosy Property Limited Ordinar'},
   {code: 'ATM', name: 'A2 Corporation Limited'},
-  {code: 'CEN', name: 'Contact 
+  {code: 'CEN', name: 'Contact Energy Limited'},
+  {code: 'CNU', name: 'Chorus Limite
