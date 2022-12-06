@@ -18,4 +18,6 @@ stocks = Stock.create([
   {code: 'DNZ', name: 'DNZ Property Fund Limited Ordin'},
   {code: 'EBO', name: 'Ebos Group Limited'},
   {code: 'MFT', name: 'Mainfreight Limited'},
-  {code: 'MHI', name: 'Michael Hill International Limited'
+  {code: 'MHI', name: 'Michael Hill International Limited'},
+  {code: 'MRP', name: 'MIGHTY RIVER POWER NPV'},
+  {code: 'N
