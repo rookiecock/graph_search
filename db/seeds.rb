@@ -29,4 +29,5 @@ stocks = Stock.create([
   {code: 'POT', name: 'Port of Tauranga Limited'},
   {code: 'RBD', name: 'Restaurant Brands NZ Limited'},
   {code: 'RYM', name: 'Ryman Healthcare Limited'},
-  {code: 'SKC', name: 'Skycity Ent
+  {code: 'SKC', name: 'Skycity Entertainment Group Ltd'},
+  {code: 'SKL', name: 'Skellerup Holding
