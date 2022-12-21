@@ -31,4 +31,5 @@ stocks = Stock.create([
   {code: 'RYM', name: 'Ryman Healthcare Limited'},
   {code: 'SKC', name: 'Skycity Entertainment Group Ltd'},
   {code: 'SKL', name: 'Skellerup Holdings Limited'},
-  {code: 'SKT', name: 'Sky Network Televisi
+  {code: 'SKT', name: 'Sky Network Television Limited'},
+  {code: 'STU', name: 'Steel & T
