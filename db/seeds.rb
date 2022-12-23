@@ -32,4 +32,5 @@ stocks = Stock.create([
   {code: 'SKC', name: 'Skycity Entertainment Group Ltd'},
   {code: 'SKL', name: 'Skellerup Holdings Limited'},
   {code: 'SKT', name: 'Sky Network Television Limited'},
-  {code: 'STU', name: 'Steel & T
+  {code: 'STU', name: 'Steel & Tube Holdings Ltd.'},
+  {code: 'SUM', name: 'SUMMERSET 
