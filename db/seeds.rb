@@ -36,4 +36,5 @@ stocks = Stock.create([
   {code: 'SUM', name: 'SUMMERSET GROUP HOLDINGS LIMITE'},
   {code: 'SPK', name: 'Spark New Zealand Ltd'},
   {code: 'TME', name: 'TRADE ME GROUP LTD NPV'},
-  {code: 'TPW', name: 'TrustPower Limi
+  {code: 'TPW', name: 'TrustPower Limited'},
+  {code: 'TWR', name: 'Tower 
