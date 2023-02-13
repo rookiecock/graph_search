@@ -50,3 +50,7 @@ class WatchesControllerTest < ActionController::TestCase
       get :edit, id: @not_my_watch
     end
     assert_raises ActiveRecord::RecordNotFound do
+      patch :update, id: @not_my_watch, watch: {stock_id: stocks(:one), threshold: 2 }
+    end
+  end
+end
