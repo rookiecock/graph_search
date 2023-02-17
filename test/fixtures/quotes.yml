@@ -3,4 +3,5 @@
 one:
   stock: one
   price: 40.00
-  prev_cl
+  prev_close: 35.00
+  last_trade_time: <%= Dat
