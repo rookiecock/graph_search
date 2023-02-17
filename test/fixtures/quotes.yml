@@ -4,4 +4,8 @@ one:
   stock: one
   price: 40.00
   prev_close: 35.00
-  last_trade_time: <%= Dat
+  last_trade_time: <%= DateTime.now %>
+
+two:
+  stock: two
+  price
