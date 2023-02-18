@@ -10,4 +10,6 @@ two:
   stock: two
   price: 4.00
   prev_close: 5.00
-  last_trade_time: <
+  last_trade_time: <%= DateTime.now %>
+
+three: # an older quot
