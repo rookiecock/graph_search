@@ -8,4 +8,6 @@ one:
 
 two:
   stock: two
-  price
+  price: 4.00
+  prev_close: 5.00
+  last_trade_time: <
