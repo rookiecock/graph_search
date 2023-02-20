@@ -15,4 +15,5 @@ two:
 three: # an older quote
   stock: one
   price: 30.00
-  prev_clos
+  prev_close: 30.00
+  created_at: <%= DateTime.now - 1
