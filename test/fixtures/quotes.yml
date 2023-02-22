@@ -18,4 +18,5 @@ three: # an older quote
   prev_close: 30.00
   created_at: <%= DateTime.now - 1 %>
   updated_at: <%= DateTime.now - 1 %>
-  last_trade_ti
+  last_trade_time: <%= DateTime.now - 1 %>
+
