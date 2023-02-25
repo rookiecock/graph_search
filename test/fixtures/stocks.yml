@@ -9,4 +9,6 @@ two:
   name: The Warehouse
 
 three:        # this one has no quotes
-  code: 
+  code: NZX
+  name: NZX
+
