@@ -3,3 +3,6 @@
 one:              # no alert sent, as one was already sent today
   stock: one
   threshold: 1
+  user: one
+
+two:              # no alert 
