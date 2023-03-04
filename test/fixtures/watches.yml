@@ -6,4 +6,8 @@ one:              # no alert sent, as one was already sent today
   user: one
 
 two:              # no alert sent, as one was already sent today
-  sto
+  stock: two
+  threshold: 1
+  user: one
+
+three:            
