@@ -10,4 +10,6 @@ two:              # no alert sent, as one was already sent today
   threshold: 1
   user: one
 
-three:            
+three:            # should be sent, since threshold is exceeded
+  stock: one
+  
