@@ -15,4 +15,4 @@ three:            # should be sent, since threshold is exceeded
   threshold: 0.5
   user: two
 
-four:             # 
+four:             # should not be sent, since threshold is not 
