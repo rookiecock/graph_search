@@ -15,4 +15,7 @@ three:            # should be sent, since threshold is exceeded
   threshold: 0.5
   user: two
 
-four:             # should not be sent, since threshold is not 
+four:             # should not be sent, since threshold is not exceeded
+  stock: two
+  threshold: 70
+  user: two
