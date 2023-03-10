@@ -1,3 +1,4 @@
 require 'test_helper'
 
-cla
+class WelcomeHelperTest < ActionView::TestCase
+end
