@@ -1,3 +1,4 @@
 require 'test_helper'
 
-class WatchesHelperTest <
+class WatchesHelperTest < ActionView::TestCase
+end
