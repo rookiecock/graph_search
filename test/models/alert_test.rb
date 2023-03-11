@@ -1,3 +1,5 @@
 require 'test_helper'
 
-class AlertTest < ActiveSupport
+class AlertTest < ActiveSupport::TestCase
+  # test "the truth" do
+  #   asse
