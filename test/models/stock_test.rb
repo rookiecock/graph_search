@@ -7,4 +7,6 @@ class StockTest < ActiveSupport::TestCase
     assert stock.latest_quote.created_at.to_date == Date.today
   end
 
-  test "should give error when ther
+  test "should give error when there are no quotes" do
+    stock = stocks(:three)
+  
