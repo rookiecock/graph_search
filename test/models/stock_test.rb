@@ -9,4 +9,5 @@ class StockTest < ActiveSupport::TestCase
 
   test "should give error when there are no quotes" do
     stock = stocks(:three)
-  
+    assert_raises RuntimeError do
+      stock.l
